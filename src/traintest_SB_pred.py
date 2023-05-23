@@ -2,6 +2,7 @@
 # @Time    : Jan/24/2023
 # @Author  : Heejin Do
 # @File    : traintest_SB_loss.py
+# This code is implemented based on https://github.com/YuanGongND/gopt
 
 # train and test the models
 import sys

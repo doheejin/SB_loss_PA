@@ -1,6 +1,6 @@
 # Score-balanced Loss for Multi-aspect Pronunciation Assessment
 
-This repository is the implementation of the paper, **Score-balanced Loss for Multi-aspect Pronunciation Assessment** (Interspeech 2023).
+This repository is the implementation of the paper, [**Score-balanced Loss for Multi-aspect Pronunciation Assessment**](https://arxiv.org/abs/2305.16664) (Interspeech 2023).
 
 > Our code is based on the open source, [https://github.com/YuanGongND/gopt](https://github.com/YuanGongND/gopt) (Gong et al, 2022).
 

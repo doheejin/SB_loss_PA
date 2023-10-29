@@ -34,11 +34,13 @@ This bash script will run each model 5 times with ([0, 1, 2, 3, 4]).
 ## Citation
 Please cite our paper, if you find this repository helpful.
 
-```@inproceedings{do23b_interspeech,
+```
+@inproceedings{do23b_interspeech,
   author={Heejin Do and Yunsu Kim and Gary Geunbae Lee},
   title={{Score-balanced Loss for Multi-aspect Pronunciation Assessment}},
   year=2023,
   booktitle={Proc. INTERSPEECH 2023},
   pages={4998--5002},
   doi={10.21437/Interspeech.2023-1679}
-}```
+}
+```

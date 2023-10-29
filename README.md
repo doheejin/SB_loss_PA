@@ -1,6 +1,6 @@
 # Score-balanced Loss for Multi-aspect Pronunciation Assessment
 
-This repository is the implementation of the paper, [**Score-balanced Loss for Multi-aspect Pronunciation Assessment**](https://arxiv.org/abs/2305.16664) (Interspeech 2023).
+This repository is the implementation of the paper, [**Score-balanced Loss for Multi-aspect Pronunciation Assessment**](https://www.isca-speech.org/archive/interspeech_2023/do23b_interspeech.html) (Interspeech 2023).
 
 > Our code is based on the open source, [https://github.com/YuanGongND/gopt](https://github.com/YuanGongND/gopt) (Gong et al, 2022).
 
@@ -30,3 +30,15 @@ Note that every run does not produce the same results due to the random elements
 This bash script will run each model 5 times with ([0, 1, 2, 3, 4]).
 - `cd src`
 - `bash run_gopt.sh`
+
+## Citation
+Please cite our paper, if you find this repository helpful.
+
+```@inproceedings{do23b_interspeech,
+  author={Heejin Do and Yunsu Kim and Gary Geunbae Lee},
+  title={{Score-balanced Loss for Multi-aspect Pronunciation Assessment}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={4998--5002},
+  doi={10.21437/Interspeech.2023-1679}
+}```

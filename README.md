@@ -4,6 +4,20 @@ This repository is the implementation of the paper, [**Score-balanced Loss for M
 
 > Our code is based on the open source, [https://github.com/YuanGongND/gopt](https://github.com/YuanGongND/gopt) (Gong et al, 2022).
 
+## Citation
+Please cite our paper, if you find this repository helpful.
+
+```
+@inproceedings{do23b_interspeech,
+  author={Heejin Do and Yunsu Kim and Gary Geunbae Lee},
+  title={{Score-balanced Loss for Multi-aspect Pronunciation Assessment}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={4998--5002},
+  doi={10.21437/Interspeech.2023-1679}
+}
+```
+
 ## Dataset
 
 An open source dataset, SpeechOcean762 (licenced with CC BY 4.0) is used. You can download it from [https://www.openslr.org/101](https://www.openslr.org/101).
@@ -31,16 +45,3 @@ This bash script will run each model 5 times with ([0, 1, 2, 3, 4]).
 - `cd src`
 - `bash run_gopt.sh`
 
-## Citation
-Please cite our paper, if you find this repository helpful.
-
-```
-@inproceedings{do23b_interspeech,
-  author={Heejin Do and Yunsu Kim and Gary Geunbae Lee},
-  title={{Score-balanced Loss for Multi-aspect Pronunciation Assessment}},
-  year=2023,
-  booktitle={Proc. INTERSPEECH 2023},
-  pages={4998--5002},
-  doi={10.21437/Interspeech.2023-1679}
-}
-```
